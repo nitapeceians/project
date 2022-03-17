@@ -1,0 +1,219 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+#title {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+}
+h1:hover{
+  color: #D6E6F2;
+}
+h2{
+  font-family:'Montserrat-Bold', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+
+}
+
+h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color:white;
+
+}
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+ .navbar
+{
+  padding: 0 0 0rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.navbar-brand:hover{
+  color: #D6E6F2;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Black',sans-serif;
+    color:white;
+}
+.nav-link:hover{
+  color: #D6E6F2;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  padding-right: 200px;
+}
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+  }
+}
+
+#features {
+  padding: 0% 15%;
+}
+
+.featured-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+
+#testimonials{
+  padding: 11% 15%;
+  text-align: center;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+
+}
+.pic{
+  width: 30%;
+  border-radius: 100%;
+
+}
+.book{
+  border-radius: 100%;
+}
+#press{
+  padding-top: 4rem;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+
+  font-family: Arial, Helvetica, sans-serif
+}
+.row{
+  padding-top: 15%;
+
+}
+.fa{
+  margin-left:  50px;
+}
+.head{
+ padding-bottom: 50px;
+ font-size: 40px;
+}
+p{
+  color:white;
+  width: 80%;
+text-align: center;
+margin-left: 100px;
+padding-top: 20px;
+line-height: 1.5;
+}
+.book{
+  width: 20%;
+  border-radius: 100%;
+}
+
+#man {
+  color: #8f8f8f;
+
+}
+.featured-box {
+  text-align: center;
+}
+
+.icon {
+  color: #FF008E;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #E60965;
+}
+
+
+
+
+
+.mg {
+    padding-top: 110px;
+    padding-left: 50px;
+    width: 85%;
+    height: 80%
+}
+#team {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+.O{
+  padding-top: 100px;
+}
+#pro{
+  width: 50%;
+  height: 80%;
+}
